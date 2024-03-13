@@ -1,0 +1,27 @@
+ 
+# Create an Empty List
+my_list = []
+ 
+# Adding Elements to to my_list
+adding_elements = [10,20,30,40]
+ 
+for i in adding_elements:
+    my_list.append(i)
+ 
+# Insert 15 in Second Position (Done in 2 methods)
+my_list[1] = 15
+my_list.insert(1,15)
+ 
+# secondList = [50,60,23,70,12]
+# my_list.extend(secondList)
+ 
+# Remove the last element from list
+my_list.pop()
+ 
+# Sort list elements in Acending order
+my_list.sort()
+ 
+ 
+print(my_list.index(30))
+ 
+print(my_list)
